@@ -1,0 +1,94 @@
+/* app.css */
+
+/* Container for the whole app, centered with padding */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Header section */
+.header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #a0aec0;
+}
+
+/* Input styling for entering amounts */
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #2d3748;
+  border-radius: 8px;
+  background-color: #1a202c;
+  color: #e2e8f0;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4299e1;
+}
+
+/* Button styling, matching the site's modern aesthetic */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4299e1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+button:disabled {
+  background-color: #2d3748;
+  cursor: not-allowed;
+}
+
+/* Footer with minimalistic design */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #63b3ed;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

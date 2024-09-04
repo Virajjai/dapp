@@ -1,0 +1,21 @@
+/* index.css */
+
+/* Reset default styles and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a global font and background */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0c0e0f;
+  color: #e5e5e5;
+  line-height: 1.6;
+}
+
+/* Make sure the UI scales properly on all devices */
+html {
+  scroll-behavior: smooth;
+}
