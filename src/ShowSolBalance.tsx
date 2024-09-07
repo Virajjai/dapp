@@ -22,7 +22,7 @@ export function ShowSolBalance() {
         <div>
             <p>SOL Balance:</p>
             <div id="balance">
-                {balance !== null ? balance.toFixed(2) : 'Loading...'}
+                {balance !== null ? balance.toFixed(2) : 'Connect Wallet'}
             </div>
         </div>
     );

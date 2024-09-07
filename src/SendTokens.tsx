@@ -19,7 +19,8 @@ export function SendTokens() {
                 return;
             }
 
-            if (isNaN(amount) || amount <= 0) {
+            
+            if (isNaN(amount) || amount <= 0){
                 alert("Please enter a valid amount.");
                 return;
             }
